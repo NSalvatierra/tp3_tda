@@ -64,21 +64,21 @@
 
 ## Comparación con Louvain
 
-- [ ] **Descripción del algoritmo Louvain**
+- [X] **Descripción del algoritmo Louvain**
   ✏️ Agregar explicación de cómo funciona Louvain antes de mostrar resultados.
 
-- [ ] **Tabla de comparación**
+- [X] **Tabla de comparación**
   ✏️ Si Louvain encuentra menos clústers que el óptimo, eso es inconsistente. Un resultado de Louvain con 2 clústers vs óptimo de 3 no puede ser válido.
 
 - [ ] **Cuadro 3 (datasets grandes)**
   ✏️ Falta incluir la solución óptima como referencia en los casos grandes. Como ustedes generan los grafos, pueden conocer el óptimo por construcción.
 
-- [ ] **Criterio de evaluación**
+- [X] **Criterio de evaluación**
   ✏️ No se puede afirmar que Louvain no aproxima bien sólo porque da menos clústers. Puede estar resolviendo un problema diferente (menos restricciones).
 
 ## Resultados Backtracking
 
-- [ ] **Validación de correctitud**
+- [X] **Validación de correctitud**
   ✏️ Generar datasets simples donde se pueda validar manualmente la solución.
 
 - [X] **Medición de tiempos**
